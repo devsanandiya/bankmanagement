@@ -44,10 +44,9 @@ Scanner sc = new Scanner(System.in);
 		case 4:
 		   System.out.println(Pin);
 		    break;
-		}
-
-}
-        }   
+      }
+   }
+}   
   
 	   
    public void withrwalmoney() {
