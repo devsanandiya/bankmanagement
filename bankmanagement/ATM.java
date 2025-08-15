@@ -9,10 +9,14 @@ Scanner sc = new Scanner(System.in);
 
     float balance;
     int Pin=234;
+    
 	
     public void checkpin() {
+    	
+    while(true) {	
 	System.out.println("enter your pin:");
 	int pin=sc.nextInt();
+	
 	if(pin==Pin) {
 		menu();
 	}else {
@@ -20,6 +24,7 @@ Scanner sc = new Scanner(System.in);
 	}
 	
     }
+    }  
 
    
         public void menu() {
